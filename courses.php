@@ -4,7 +4,7 @@
     include 'classes/Course.php';
 
     
-    // $grades = fetchArray('data/grades.csv'); hvorfor kan ikke den være her?
+    
     $allCourses = fetchArray('data/courses.csv');
     $coursesArray = getCourses($allCourses);
 
